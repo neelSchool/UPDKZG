@@ -2,7 +2,7 @@
 #include <vector>
 #include <libff/algebra/curves/bls12_381/bls12_381_pp.hpp>
 
-namespace kupcom {
+namespace upkzg {
 
 // Minimal PES (Polynomial Encoding Scheme) that appends ℓ random tail coefficients.
 // Correctness + bounded independence (simple model for tests). See paper Def. 2. :contentReference[oaicite:6]{index=6}
@@ -24,4 +24,4 @@ struct PES {
   }
 };
 
-} // namespace kupcom
+}

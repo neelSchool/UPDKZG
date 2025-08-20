@@ -2,7 +2,7 @@
 #include "upkzg/kzg.hpp"
 #include "upkzg/pes.hpp"
 
-using namespace kupcom;
+using namespace upkzg;
 
 TEST(KZG, KGenCommitEvalCheck) {
   KZG::init();

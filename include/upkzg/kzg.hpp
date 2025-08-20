@@ -3,7 +3,7 @@
 #include <stdexcept>
 #include <libff/algebra/curves/bls12_381/bls12_381_pp.hpp>
 
-namespace kupcom {
+namespace upkzg {
 
 using pp = libff::bls12_381_pp;
 using Fr = libff::Fr<pp>;
@@ -58,4 +58,4 @@ public:
   static std::vector<Fr> quotient(const std::vector<Fr>& f, const Fr& z, const Fr& y);
 };
 
-} // namespace kupcom
+}
