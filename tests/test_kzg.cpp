@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
-#include "kupcom/kzg.hpp"
-#include "kupcom/pes.hpp"
+#include "upkzg/kzg.hpp"
+#include "upkzg/pes.hpp"
 
 using namespace kupcom;
 
