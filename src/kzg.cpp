@@ -1,7 +1,6 @@
-#include "kupcom/kzg.hpp"
+#include "upkzg/kzg.hpp"
 #include <libff/common/profiling.hpp>
-
-namespace kupcom {
+namespace upkzg {
 
 static inline G1 g1_mul(const G1& P, const Fr& s) { return P * s; }
 static inline G2 g2_mul(const G2& Q, const Fr& s) { return Q * s; }
@@ -126,4 +125,4 @@ bool KZG::check(const CRS& ck, const Commitment& com, const EvalProof& pf) {
   return pairing(left_g1, ck.h_gen) == pairing(pf.pi, right_g2);
 }
 
-} // namespace kupcom
+} // namespace upkzg
